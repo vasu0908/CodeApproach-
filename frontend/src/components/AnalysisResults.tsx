@@ -12,9 +12,7 @@ import {
   ChevronDown,
   ChevronUp,
   Sparkles,
-  Zap,
   Award,
-  TrendingUp,
   Brain
 } from 'lucide-react';
 
