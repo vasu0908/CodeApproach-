@@ -1,0 +1,28 @@
+{
+  "name": "codeapproach-analyzer",
+  "version": "1.0.0",
+  "description": "CodeApproach Analyzer - AI-powered code analysis platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "cd frontend && npm run build",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1"
+  },
+  "devDependencies": {
+    "vercel": "^46.0.2"
+  },
+  "keywords": [
+    "code-analysis",
+    "optimization",
+    "api",
+    "gemini",
+    "complexity",
+    "vercel",
+    "serverless"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
