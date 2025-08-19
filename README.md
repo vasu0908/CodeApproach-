@@ -108,31 +108,7 @@ PORT=5000
 NODE_ENV=production
 ```
 
-## 📝 API Documentation
 
-### POST /api/analyze
-
-Analyzes code and returns optimization suggestions.
-
-**Request Body:**
-```json
-{
-  "code": "function example() { ... }",
-  "problemStatement": "Optional problem description"
-}
-```
-
-**Response:**
-```json
-{
-  "approach": "brute force | better | optimal",
-  "timeComplexity": "O(n^2)",
-  "spaceComplexity": "O(1)",
-  "weaknesses": "Detailed explanation of inefficiencies",
-  "optimalCode": "Optimized code solution",
-  "explanation": "Step-by-step teaching explanation"
-}
-```
 
 ## 🎨 UI Features
 
@@ -181,3 +157,4 @@ MIT License - see LICENSE file for details
 - Check the console for error messages
 - Verify environment variables are set correctly
 - Ensure both frontend and backend servers are running
+
